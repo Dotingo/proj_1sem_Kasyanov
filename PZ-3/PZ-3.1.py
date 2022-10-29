@@ -4,7 +4,7 @@ def program():
         B = int(input("введите B: "))
         C = int(input("введите C: "))
 ## проверяю истинность высказывания
-        print(A < B < C or A > B >C)
+        print(A < B < C or A > B >C) #вывожу результат
 
     except ValueError:
         print("Неправильно введены данные")
