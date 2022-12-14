@@ -16,8 +16,9 @@ def program():
         D1 = int(input("Введите число от 0 до 9: "))
         D2 = int(input("Введите второе число от 0 до 9: "))
         if 0 <= D1 <= 9 and 0 <= D2 <= 9: # делается проверка значений
-            print(AddRightDigit(D1, K))
-            print(AddRightDigit(D2, K))
+            A = AddRightDigit(D1, K)
+            print(A)
+            print(AddRightDigit(D2, A))
         else:
             print("ошибка ввода")
             program()
